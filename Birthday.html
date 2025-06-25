@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Countdown to Pi Day 2026</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  .countdown-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #FF69B4; /* Pink */
+    margin-bottom: 30px;
+  }
+  .countdown-timer div {
+    display: inline-block;
+    font-size: 2.5em;
+    margin: 0 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #90EE90; /* Light Green */
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .countdown-timer div span {
+    display: block;
+    font-size: 0.4em;
+    margin-top: 5px;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<div class="countdown-container">
+  <h1>Countdown to Pi Day (March 14, 2026)</h1>
+  <div id="countdown" class="countdown-timer">
+    <div><span id="days"></span>Days</div>
+    <div><span id="hours"></span>Hours</div>
+    <div><span id="minutes"></span>Minutes</div>
+    <div><span id="seconds"></span>Seconds</div>
+  </div>
+</div>
+
+<script>
+  // Set the target date and time
+  const targetDate = new Date("March 14, 2026 14:03:26").getTime();
+
+  // Update the countdown every 1 second
+  const countdownFunction = setInterval(function() {
+
+    // Get today's date and time
+    const now = new Date().getTime();
+
+    // Find the distance between now and the target date
+    const distance = targetDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the corresponding elements
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    // If the countdown is over, write some text
+    if (distance < 0) {
+      clearInterval(countdownFunction);
+      document.getElementById("countdown").innerHTML = "<h2>HAPPY PI DAY!</h2>";
+      document.getElementById("countdown").style.color = "#FF69B4"; /* Pink */
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>
