@@ -1,2 +1,2 @@
 # hello.github.io
-Help NOW!
+Help NOW! $desmos$
