@@ -129,6 +129,9 @@ HBP.md file:
 
 ----------
 
+
+----------
+
 Cc.md file:
 
 The example is :
@@ -136,3 +139,15 @@ The example is :
 > You may do ... —
 >
 >> And You ...... ——
+
+
+
+
+----------
+
+Without blank lines, this might not look right.
+> This is a blockquote
+Don't do this!
+
+> [!WARNING]
+> Do NOT do this !
