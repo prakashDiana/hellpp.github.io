@@ -114,3 +114,15 @@ HBP.md file:
 
 > [!WARNING]
 > Do NOT do this !
+
+HBP.md file:
+
+#Here's a Heading
+
+> [!WARNING]
+> Do NOT do this !
+
+# Here's a Heading
+
+> [!IMPORTANT]
+> Add spaces between the heading \# sign !
