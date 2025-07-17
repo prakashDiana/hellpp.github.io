@@ -105,3 +105,12 @@ Here are symbols using \texttt{unicode-math} (often includes \texttt{amssymb} sy
 In `unicode-math`, symbols like $\\mathbb{R}$ are often accessed directly, or via their Unicode math aliases (e.g. `\symbb{R}` for blackboard bold R). However, many standard LaTeX commands for these symbols are mapped correctly by `unicode-math` if the font supports them.
 
 In conclusion, you are absolutely right: `\usepackage{amssymb}` is a fundamental package for anyone doing serious mathematical typesetting in LaTeX, especially with pdfLaTeX. For modern XeLaTeX/LuaLaTeX workflows, `unicode-math` often takes its place, providing similar and extended functionality through OpenType math fonts.
+
+--------
+
+HBP.md file:
+
+#Here's a Heading
+
+> [!WARNING]
+> Do NOT do this !
