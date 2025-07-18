@@ -46,3 +46,13 @@ Roads3[
 % ``√'' means the nature area
 % ``.'' means the pavement during construction work
 ]
+
+
+% Appendix
+LeftTurnArrows[
+SteadyRedArrow, Left
+SteadyRedArrow, Left
+SteadyYellowArrow, Left
+FlashingYellowArrow, Left
+SteadyGreenArrow, Left
+]
