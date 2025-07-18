@@ -59,3 +59,10 @@ __Strong__
 > [!IMPORTANT]
 > Hello?
 
+MetaFont.md file:
+
+**print**(*"Hello, World"*)\
+**begintable**`{Warrior Course}`\
+1\. Log grip\
+2\. Swing grip\
+**endtable**
