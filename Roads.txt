@@ -32,3 +32,17 @@ __________                 ______
           |    |ONLY|ONLY|
           |    |    |    |
 ]
+
+Roads3[
+
+|    |√√√√|    |
+.    .√√√√.    .
+.    .   .    .
+.    .  .    .
+.    . .    .
+.    ..    .
+
+% Legend:
+% ``√'' means the nature area
+% ``.'' means the pavement during construction work
+]
