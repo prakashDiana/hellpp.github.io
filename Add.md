@@ -66,3 +66,12 @@ MetaFont.md file:
 1\. Log grip\
 2\. Swing grip\
 **endtable**
+
+
+**mode_setup**;
+
+**define_pixels**(_em_, _cap_, _sb_);\
+**define_corrected_pixels**(_o_);
+
+%% Define a light bulb at the character position for “A”\
+%% with width <sup>1</sup>/<sub>2</sub>*em*<sup>#</sup>, height *cap*<sup>#</sup>, and depth 1*pt*<sup>#</sup>.
