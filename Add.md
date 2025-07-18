@@ -74,4 +74,7 @@ MetaFont.md file:
 **define_corrected_pixels**(_o_);
 
 %% Define a light bulb at the character position for “A”\
-%% with width <sup>1</sup>/<sub>2</sub>*em*<sup>#</sup>, height *cap*<sup>#</sup>, and depth 1*pt*<sup>#</sup>.
+%% with width <sup>1</sup>/<sub>2</sub>*em*<sup>#</sup>, height *cap*<sup>#</sup>, and depth 1*pt*<sup>#</sup>.\
+**beginchar**(`"A"`,
+
+<sup>1</sup>/<sub>2</sub>*em*<sup>#</sup>, *cap*<sup>#</sup>, 1*pt*<sup>#</sup>); `"A light bulb"`;
