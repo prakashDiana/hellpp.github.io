@@ -66,7 +66,8 @@ MetaFont.md file:
 1\. Log grip\
 2\. Swing grip\
 **endtable**
-
+*[HTML]: Hyper Text Markup Language
+The HTML specification is maintained by the W3C.
 
 **mode_setup**;
 
